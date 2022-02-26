@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true, 
+    "outDir": "lib",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "lib": ["ESNext", "dom"],
+  },
+  "include": ["scripts", "src", "test"],
+  "exclude": ["node_modules", "lib"]
+}
