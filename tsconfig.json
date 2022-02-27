@@ -3,11 +3,12 @@
     "declaration": true,
     "strictNullChecks": true,
     "noImplicitAny": true, 
-    "outDir": "lib",
+    "target": "es5",
+    "outDir": "dist",
     "moduleResolution": "node",
     "sourceMap": true,
     "lib": ["ESNext", "dom"],
   },
   "include": ["scripts", "src", "test"],
-  "exclude": ["node_modules", "lib"]
+  "exclude": ["node_modules", "dist"]
 }

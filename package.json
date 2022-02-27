@@ -1,17 +1,27 @@
 {
   "name": "start-testing",
-  "version": "0.0.1",
-  "description": "",
-  "main": "src/index.ts",
+  "version": "1.0.0",
+  "description": "Start Testing is a lightweight Typescript Testing Library with 0 dependencies and a minimal yet flexible API to get you from concept to validation as fast as possible",
+  "keywords": [
+    "typescript",
+    "testing",
+    "painless",
+    "test-library",
+    "fast-testing",
+    "tdd"
+  ],
+  "main": "./dist/index.js",
   "files": [
-    "src/**/*",
-    "tsconfig.json",
+    "dist/**/*",
     "README.md",
     "package.json",
     "LICENSE"
   ],
   "scripts": {
-    "test": "npx ts-node ./scripts/runTests.ts"
+    "test": "npx ts-node ./scripts/runTests.ts",
+    "clean": "rm -rf dist",
+    "compile": "tsc -p ./tsconfig.build.json",
+    "build": "npm run clean && npm run compile"
   },
   "author": "Connor McKelvey",
   "license": "MIT",
