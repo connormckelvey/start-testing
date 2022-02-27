@@ -1,6 +1,6 @@
 {
   "name": "start-testing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Start Testing is a lightweight Typescript Testing Library with 0 dependencies and a minimal yet flexible API to get you from concept to validation as fast as possible",
   "keywords": [
     "typescript",
@@ -10,6 +10,16 @@
     "fast-testing",
     "tdd"
   ],
+  "author": "Connor McKelvey",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connormckelvey/start-testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/connormckelvey/start-testing/issues"
+  },
+  "homepage": "https://github.com/connormckelvey/start-testing#readme",
   "main": "./dist/index.js",
   "files": [
     "dist/**/*",
@@ -23,8 +33,6 @@
     "compile": "tsc -p ./tsconfig.build.json",
     "build": "npm run clean && npm run compile"
   },
-  "author": "Connor McKelvey",
-  "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.21",
     "typescript": "^4.5.5",
