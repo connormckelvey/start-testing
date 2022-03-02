@@ -2,7 +2,7 @@ import { Context, Tests } from './context'
 import { Logger } from './logger'
 
 const defaultOptions = { 
-    logger: new Logger() 
+    logger: new Logger()
 }
 
 export class Runner extends Context {
