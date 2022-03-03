@@ -1,6 +1,6 @@
 {
   "name": "start-testing",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Start Testing is a lightweight Typescript Testing Library with 0 dependencies and a minimal yet flexible API to get you from concept to validation as fast as possible",
   "keywords": [
     "typescript",

@@ -67,8 +67,7 @@ export class Context {
         }
     }
 
-    protected addCtx(name: string) {
-        const ctx = this.new(name)
+    protected addCtx(name: string, ctx: Context = this.new(name)) {
         this.subContexts.push(ctx)
         return ctx
     }
